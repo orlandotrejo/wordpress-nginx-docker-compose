@@ -6,7 +6,7 @@
 Use WordPress locally with Docker using [Docker compose](https://docs.docker.com/compose/)
 
 + `Dockerfile` for extending a base image with a custom [Docker image](https://github.com/urre/wordpress-nginx-docker-compose-image) with [automated build on Docker Hub](https://cloud.docker.com/repository/docker/urre/wordpress-nginx-docker-compose-image)
-+ Custom domain for example `myapp.local`
++ Custom domain for example `alevaluc.com`
 + Custom nginx config in `./nginx`
 + Custom PHP `php.ini` config in `./config`
 + Volumes for `nginx`, `wordpress` and `mariadb`
@@ -38,7 +38,7 @@ Example:
 ```dotenv
 IP=127.0.0.1
 APP_NAME=myapp
-DOMAIN="myapp.local"
+DOMAIN="alevaluc.com"
 DB_HOST=mysql
 DB_NAME=myapp
 DB_ROOT_PASSWORD=password
@@ -111,7 +111,7 @@ Starting myapp-wordpress  ... done
 Starting myapp-nginx      ... done
 ```
 
-🚀 Open up [https://myapp.local](https://myapp.local)
+🚀 Open up [https://alevaluc.com](https://alevaluc.com)
 
 ## PhpMyAdmin
 
